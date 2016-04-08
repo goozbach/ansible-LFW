@@ -1,5 +1,5 @@
 sudo: false
 language: ruby
-ruby:
-  - 2.0
+rvm:
+  - 2.2
 script: csvlint --dump-errors --schema csvschema.json list.csv
