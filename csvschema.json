@@ -1,0 +1,60 @@
+{
+    "fields": [
+        {
+            "name": "Name",
+            "title": "Full Name",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Email",
+            "title": "Email Address",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Phone",
+            "title": "Phone Number",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "City",
+            "title": "City",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "State",
+            "title": "State or Province",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Country",
+            "title": "Country",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "URL",
+            "title": "URL",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Type of Work",
+            "title": "Type of Work",
+            "constraints": {
+                "required": false
+            }
+        }
+    ]
+}
